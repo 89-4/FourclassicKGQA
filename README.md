@@ -1,5 +1,5 @@
 # KGQA_HLM
-基于知识图谱的《红楼梦》人物关系可视化及问答系统
+基于“基于知识图谱的《红楼梦》人物关系可视化及问答系统”的人物关系可视化及问答系统
 
 [![Project](https://img.shields.io/badge/project-KGQA_HLM-orange.svg)](https://github.com/chizhu/KGQA_HLM)
 [![Python version](https://img.shields.io/badge/language-python3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
@@ -32,7 +32,7 @@
 
 部署步骤：<br>
 * 0.安装所需的库 执行pip install -r requirement.txt<br>
-* 1.先下载好neo4j图数据库，并配好环境（注意neo4j需要jdk8）。修改neo_db目录下的配置文件config.py,设置图数据库的账号和密码。<br>
+* 1.先下载好neo4j图数据库，并配好环境（注意neo4j需要jdk8）。修改neo4j的config文件。修改neo_db目录下的配置文件config.py,设置图数据库的账号和密码。<br>
 * 2.切换到neo_db目录下，执行python  create_graph.py 建立知识图谱<br>
 * 3.去 [这里](http://pyltp.readthedocs.io/zh_CN/latest/api.html#id2) 下载好ltp模型。[ltp简介](http://ltp.ai/)<br>
 * 4.在KGQA目录下，修改ltp.py里的ltp模型文件的存放目录<br>
